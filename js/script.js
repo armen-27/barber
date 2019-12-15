@@ -258,6 +258,8 @@ function addAndChange(client) {
     } else {
         form.firstName.value = "";
         form.phoneNumber.value = "";
+        form.time.value = "";
+        form.date.value = "";
         form.button.value = "Register a client";
         form.firstName.removeAttribute("disabled");
         form.phoneNumber.removeAttribute("disabled");
